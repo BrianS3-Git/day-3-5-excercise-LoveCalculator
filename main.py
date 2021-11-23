@@ -95,5 +95,12 @@ print(f"LOVE total = {love}")
 
 print("")
 
-total = true + love
-print(f"Your total is: {total}")
+# Next two lines were just to test if total was correct
+#total = true + love
+#print(f"Your total is: {total}")
+
+print("")
+
+# Cast both integers to a string, concatenate, then back to a string again for love score
+love_score = int(str(true) + str(love))
+print(f"Your love score is {love_score}")
