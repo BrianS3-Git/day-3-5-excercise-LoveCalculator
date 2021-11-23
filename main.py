@@ -99,16 +99,12 @@ print("")
 #total = true + love
 #print(f"Your total is: {total}")
 
-print("")
-
 # Cast both integers to a string, concatenate, then back to a string again for love score
 love_score = int(str(true) + str(love))
 
-if love_score < 10 or love_score > 90:
+if (love_score < 10) or (love_score > 90):
   print(f"Your score is {love_score}, you go together like coke and mentos")
-elif love_score >=40 or love_score <= 50:
+elif (love_score >=40) or (love_score <= 50):
   print(f"Your score is {love_score}, you are alright together")
 else:
   print(f"Your love score is {love_score}")
-
-
